@@ -4,7 +4,7 @@ import os
 import tempfile
 
 # 💫 Page setup
-st.set_page_config(page_title="meraInstaDownloader 📥", page_icon="🎬")
+st.set_page_config(page_title="ReelSnatcher 📥", page_icon="🎬")
 
 # 🌈 Custom CSS for funky styling
 st.markdown("""
@@ -44,7 +44,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 🌟 Title
-st.markdown("### 🎬 meraInstaDownloader")
+st.markdown("### 🎬 ReelSnatcher")
 st.markdown("#### *Download Instagram Reels in Style!* 💃🕺")
 
 # 📥 Input
@@ -90,3 +90,4 @@ if st.button("✨ Download Now"):
                 st.error(f"❌ Oops! Something went wrong:\n\n{e}")
     else:
         st.warning("⚠️ Please paste a valid Instagram URL first.")
+
